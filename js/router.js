@@ -54,17 +54,7 @@ define([
     var app_router = new AppRouter;
     
     // display the header at all times
-    var headerView = new HeaderView();
-    headerView.render();
-    
-    // the purpose of this app is to Search for movies, so this should display always
-    var projectSearchFormView = new ProjectSearchFormView();
-    projectSearchFormView.render();
 
-    // display the footer at all times
-    var footerView = new FooterView();    
-    footerView.render();
-    
     Backbone.history.start();
   };
   return { 
