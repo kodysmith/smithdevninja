@@ -77,7 +77,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-git');
 
   grunt.registerTask('server',['connect']);
-  grunt.registerTask('setup',['gitclone:matrix','gitclone:lydia','gitclone:searchProject']);
+  grunt.registerTask('setup',['gitclone:matrix','gitclone:searchProject']);
   // Default task(s).
   grunt.registerTask('default', ['uglify','less', 'connect']);
 
