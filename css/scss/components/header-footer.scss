@@ -1,6 +1,6 @@
 #header{
   height:100px;
-  background-color:$offWhite;
+  background-color:#fff;
   @media(min-width:700px){
     @include centerLeftAlign();
   }
@@ -14,7 +14,7 @@
   h1{
     font-weight:bolder;
     font-size:2em;
-    color:$bestBuyBlue;
+    color:$ninjaBlack;
   }
   .subtitle{
     color:cornflowerblue;

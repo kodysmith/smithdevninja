@@ -6,6 +6,10 @@
 #searchFormHolder{
   display:block;
 }
+#ninjaLogo {
+  position:absolute;
+  left:33%;
+}
 @media(min-width: 700px){
   form#movieSearchForm {
     float: left;

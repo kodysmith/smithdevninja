@@ -12,7 +12,7 @@ body {
 
 #header {
   height: 100px;
-  background-color: #e6e6eb; }
+  background-color: #fff; }
   @media (min-width: 700px) {
     #header .container {
       left: 50%;
@@ -35,7 +35,7 @@ body {
   #header h1 {
     font-weight: bolder;
     font-size: 2em;
-    color: #085eb9; }
+    color: black; }
   #header .subtitle {
     color: cornflowerblue;
     font-style: italic; }
@@ -174,15 +174,19 @@ body {
 #searchFormHolder {
   display: block; }
 
+#ninjaLogo {
+  position: absolute;
+  left: 33%; }
+
 @media (min-width: 700px) {
-  form#resultObjectSearchForm {
+  form#movieSearchForm {
     float: left;
     left: 37%;
     position: relative;
     width: 50%;
     margin-top: 20px; } }
 @media (max-width: 699px) {
-  form#resultObjectSearchForm {
+  form#movieSearchForm {
     float: left;
     left: 2%;
     position: relative;
@@ -204,18 +208,6 @@ body {
 .resultObjectRating {
   font-weight: bold; }
 
-@media (max-width: 700px) {
-  .resultsGrid.grid .grid-item {
-    float: left;
-    display: block;
-    min-width: 250px;
-    margin: 14px auto 14px 6px;
-    padding: 10px;
-    min-height: 170px;
-    text-align: left;
-    width: 92%;
-    background-color: #e6e6eb;
-    color: #085eb9; } }
 @media (min-width: 700px) {
   .resultsGrid.grid .grid-item {
     float: left;
@@ -226,6 +218,18 @@ body {
     min-height: 170px;
     text-align: left;
     width: 29%;
+    background-color: #e6e6eb;
+    color: #085eb9; } }
+@media (max-width: 700px) {
+  .resultsGrid.grid .grid-item {
+    float: left;
+    display: block;
+    min-width: 250px;
+    margin: 14px auto 14px 6px;
+    padding: 10px;
+    min-height: 170px;
+    text-align: left;
+    width: 92%;
     background-color: #e6e6eb;
     color: #085eb9; } }
 .resultsGrid.grid .grid-item .resultObjectTitle {
